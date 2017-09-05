@@ -1,11 +1,33 @@
 body
 {
-	background-color:beige;
-}
-
-h1
+	background: gray;
+}	
+h1, h3
 {
 	color: black;
 	text-align: center;
+	text-decoration: underline;
+	font-family: Trebuchet ms;
+	font-style: bold;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	
+}
+
+p
+{
+	color: yellow;
+	font-style: bold;
+	background-color: black;
+	font-family: Impact;
+	text-align: center;
+	
+}
+
+.pageImage
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
 	
 }
